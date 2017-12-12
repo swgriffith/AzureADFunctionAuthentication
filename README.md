@@ -40,7 +40,7 @@ Azure functions are awesome, and Azure AD is also awesome. Connecting the two is
 At this point your Azure Setup is Complete! Now lets test. For testing I use Postman, but you can use whatever mechanism you prefer.
 
 15) Create a new POST to the following URL with the x-www-form-urlencoded data shown below:
-https://login.microsoftonline.com/<YourDomain>.onmicrosoft.com/oauth2/token?api-version=1.0
+https://login.microsoftonline.com/{YourDomain}.onmicrosoft.com/oauth2/token?api-version=1.0
 
 |Param |Value|
 |-|-|
